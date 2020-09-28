@@ -151,5 +151,30 @@ Y este es el párrafo más importante de la obra…
 
 <p class="quitar importante">Se pueden aplicar varias clases a la vez</p> //Párrafo de clase "quitar" y clase "importante"
 
+Ejercitacion 4:
+Aquí comparando ambos códigos resulta claro que en el segundo código se declara el body como clase "contenido" por eso en las declaraciones se verá afectado por el selector
+".contenido" que selecciona todos los elementos de la clase contenido y le otorga las propiedades font-size con valor 14px y font-weight con valor bold, es decir que 
+todos los elementos (textos) de dicho código tendrán un tamaño de letra de 14 px y estarán en negrita. El primer código no se verá afectado por esta declaración ya que 
+no se le declara la clase "contenido" al body.
 
+Ejercitacion 5:
+1) h1,h2,h3,h4,h5,h6 {color: red}
 
+2) p [href] {color: black}
+
+3) ul #ultimo {color: yellow}
+    ul:link {color: blue}
+
+4) #importante {color: green}
+    h1,h2,h3,h4,h5,h6 #importante {color: red}
+
+5) h1[title] {color: blue}
+
+6) ol:link {color: blue;
+            text-decoration: none
+            }
+   ol:visited {color: purple;
+              text-decoration: none;
+              }
+              
+  
